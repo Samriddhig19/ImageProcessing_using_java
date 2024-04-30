@@ -48,7 +48,7 @@ public class ImageForge {
         grayscaleButton.setBackground(Color.GRAY);
         grayscaleButton.setForeground(Color.BLACK);
 
-       redFilterButton = new JButton("Red Filter");
+       	redFilterButton = new JButton("Red Filter");
         redFilterButton.setFont(new Font("Arial", Font.BOLD, 14));
         redFilterButton.setBackground(Color.RED);
         redFilterButton.setForeground(Color.BLACK);
@@ -59,9 +59,9 @@ public class ImageForge {
         logButton.setForeground(Color.BLACK);
 
 	greenFilterButton = new JButton("Green Filter");
-    greenFilterButton.setFont(new Font("Arial", Font.BOLD, 14));
-    greenFilterButton.setBackground(Color.GREEN);
-    greenFilterButton.setForeground(Color.BLACK);
+    	greenFilterButton.setFont(new Font("Arial", Font.BOLD, 14));
+    	greenFilterButton.setBackground(Color.GREEN);
+    	greenFilterButton.setForeground(Color.BLACK);
 
        
         chooseImageButton.addActionListener(new ActionListener() {
